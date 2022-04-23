@@ -28,6 +28,21 @@ print(total)
 
 
 
+c = 5
+def add (a, b):
+    c = a + b
+    return c
+ 
+# will get an exception
+x = add(12, 23)
+print(x)
+ 
+# use global
+ 
+def add (a, b):
+    global c
+    c = a + b
+    return c
 
 
 
